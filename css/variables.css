@@ -1,0 +1,17 @@
+:root {
+    --yellow: #fae100;
+    --horizontal-space: 25px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
+    --color-gray: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.open-chat__header span {
+    color: var(--color-gray);
+}
